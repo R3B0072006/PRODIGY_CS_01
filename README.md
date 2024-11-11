@@ -4,10 +4,10 @@ Caesar Cipher Implementation for Internship Task.
 This repository contains a Python implementation of the Caesar cipher algorithm, which is a simple encryption technique. The Caesar cipher shifts each letter in the plaintext by a fixed number of positions down the alphabet. For example, with a shift of 1, 'A' would become 'B', 'B' would become 'C', and so on.
 
 ## Features
-- **Encrypt messages**: Convert plaintext into ciphertext using a specified shift value.
-- **Decrypt messages**: Convert ciphertext back into plaintext using the same shift value.
-- Handles both uppercase and lowercase letters.
-- Non-alphabetic characters remain unchanged.
+1. **Encrypt messages**: Convert plaintext into ciphertext using a specified shift value.
+2. **Decrypt messages**: Convert ciphertext back into plaintext using the same shift value.
+3. Handles both uppercase and lowercase letters.
+4. Non-alphabetic characters remain unchanged.
 
 ## How to Run
 1. Ensure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/).
@@ -50,12 +50,12 @@ This tool evaluates the strength of a password based on several criteria, such a
 4. Strength Rating: Based on the above checks, the tool rates the password as "Weak," "Medium," or "Strong."
 
 ## How to Run
-Input the Password: The tool prompts the user to input a password.
-Password Evaluation: The tool checks if the password meets the following criteria:
-Length: Minimum 8 characters
-Includes uppercase and lowercase letters
-Includes numbers
-Includes at least one special character (e.g., @, #, !, etc.)
+1. Input the Password: The tool prompts the user to input a password.
+2. Password Evaluation: The tool checks if the password meets the following criteria:
+3. Length: Minimum 8 characters
+4. Includes uppercase and lowercase letters
+5. Includes numbers
+6. Includes at least one special character (e.g., @, #, !, etc.)
 
 ## Feedback
 The tool provides feedback on the strength of the password and suggests improvements.
